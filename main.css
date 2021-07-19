@@ -1,0 +1,144 @@
+/* Please insert all your CSS code into this document */
+
+/* Global */
+
+body {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+body > header, footer {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: white;
+    padding: 10px 10px;
+}
+
+body > header{
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
+
+
+/* Page 1 */
+
+#wrapper1 {
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+.nav1 {
+    position: absolute;
+    left: 0px;
+    width: 200px;
+}
+
+.article1 {
+    margin-left: 200px; 
+}
+
+/* Page 2 */
+
+.nav2 {
+    float: left;
+    width: 200px;
+}
+
+.article2 {
+    margin-left: 200px;
+}
+
+.footer2 {
+    clear: both;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+/* Page 3 */
+
+.nav3 {
+    float: left;
+    width: 200px;
+}
+
+.article3 {
+    margin-left: 200px;
+}
+
+.article3 img {
+    width: 100%;
+}
+
+.footer3 {
+    clear: both;
+}
+
+/* Page 4 */
+
+.nav4 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    height: 25%;
+}
+
+.article4 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    height: 75%;
+}
+
+
+
+.article4 img {
+    width: 100%;
+}
+
+/* Page 5 */
+
+.box {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    object-fit:scale-down;
+    object-position: top;
+
+  }
+
+  .header5 img {
+      width:100%;
+
+  }
+
+  .box img{
+      width: 100%;
+      box-shadow: 2px 2px 2px 2px grey;
+  }
+  .after-box {
+    clear: left;
+  }
+  
+
+
+
+
+
